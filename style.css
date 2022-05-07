@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(#07042c, #250b48);
+}
+
+.cabecalho {
+  height: 40px;
+  width: 100%;
+  background-color: #181818;
+  color: rgb(57, 255, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  position: fixed;
+}
+
+
+.img {
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 26px;
+}
+.cards {
+  padding-top:50px;
+}
+
+.cards2,
+.cards3,
+.cards,
+.cards4 {
+  display: flex;
+  justify-content: center;
+}
+
+.barbeirogato {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.skillBase {
+  display: flex;
+  justify-content: center;
+  margin-left: 28px;
+  margin-bottom: 29px;
+}
+
+.margem {
+  margin-top: 39px;
+  margin-left: 28px;
+  margin-right: 28px;
+}
+
+.sobre {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+
+}
+
+.TamanhoDafonte {
+  font-size: 20px;
+  color: #b4b4b4;
+  font-style: italic;
+  display: flex;
+  margin-left: 29px;
+  margin-bottom: 59px;
+
+}
+
+footer {
+  height: 200px;
+  width: 100%;
+  background-color: #181818;
+}
+
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #d3d3d3;
+  margin-top: 140px;
+  margin-top: 90px;
+  font-size: 20px;
+}
+
+.contato {
+  color: #fff;
+  margin-left: 30px;
+  padding: 20px;
+  font-size: 19px;
+}
+
+.contato {
+  border-style: dashed;
+  width: 250px;
+  height: 30px;
+}
+
+/* Tablet */
+@media (max-width: 760px) {
+
+ .cabecalho {
+  height: 40px;
+  max-width: 100%;
+  background-color: #181818;
+  color: rgb(57, 255, 245);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 25px;
+  position: fixed;
+}
+.margem {
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+}
+
+.skillBase {
+  margin-right: 22px;
+}  
+
+  .cards, .cards2, .cards3, .cards4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ img {
+   width: 220px;
+ }
+ .bg {
+   width: 600px;
+ }
+ .contato {
+  color: #fff;
+  margin-left: 10px;
+  padding:10px;
+}
+
+.contato {
+  border-style: dashed;
+  width: 300px;
+  height: 70px;
+  font-size: 30px;
+}
+.rodape {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 80px;
+  font-size: 20px;
+}
+}
+
+
+
+
+
+/* Celular */
+@media (max-width: 375px) {
+  .cabecalho {
+    max-width: 50px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    max-width: 400px;
+  }
+  .cards, .cards2, .cards3, .cards4 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+ img {
+   width: 300px;
+ }
+
+  .bg {
+    width:300px;
+    margin-left: 16px;
+  }
+  .title {
+    font-size:20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .margem {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .skillBase {
+    margin-right: 22px;
+  }  
+
+  /* .skillBase {
+    flex-direction: column;
+  } */
+  footer {
+    max-width: 400px;
+    height: 180px;
+  }
+  .contato {
+    color: #fff;
+    margin-left: 10px;
+    padding:10px;
+  }
+  
+  .contato {
+    border-style: dashed;
+    width: 250px;
+    height: 40px;
+    font-size: 19px;
+  }
+  .rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 80px;
+    font-size:16px;
+  }
+
+}
